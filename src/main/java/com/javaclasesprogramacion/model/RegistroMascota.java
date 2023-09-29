@@ -4,7 +4,7 @@ public class RegistroMascota {
 
     private String nombreMascota;
     private String raza;
-    private int edadMascota;
+    private Integer edadMascota;
     private String tipoMascota;
 
     public RegistroMascota() {
@@ -34,11 +34,11 @@ public class RegistroMascota {
         this.raza = raza;
     }
 
-    public int getEdadMascota() {
+    public Integer getEdadMascota() {
         return edadMascota;
     }
 
-    public void setEdadMascota(int edadMascota) {
+    public void setEdadMascota(Integer edadMascota) {
         this.edadMascota = edadMascota;
     }
 

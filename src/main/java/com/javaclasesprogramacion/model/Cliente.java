@@ -3,9 +3,9 @@ package com.javaclasesprogramacion.model;
 public class Cliente {
 
     private String nombreCliente;
-    private int numeroDocumento;
+    private Integer numeroDocumento;
     private String direccion;
-    private int numeroContacto;
+    private Integer numeroContacto;
 
     public Cliente() {
 
@@ -18,19 +18,35 @@ public class Cliente {
         this.numeroContacto = numeroContacto;
     }
 
-    public void setNombre(String nombre) {
-        this.nombreCliente = nombre;
+    public String getNombreCliente() {
+        return nombreCliente;
     }
 
-    public void setNumeroDocumento(int numeroDocumento) {
+    public void setNombreCliente(String nombreCliente) {
+        this.nombreCliente = nombreCliente;
+    }
+
+    public Integer getNumeroDocumento() {
+        return numeroDocumento;
+    }
+
+    public void setNumeroDocumento(Integer numeroDocumento) {
         this.numeroDocumento = numeroDocumento;
+    }
+
+    public String getDireccion() {
+        return direccion;
     }
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
 
-    public void setNumeroContacto(int numeroContacto) {
+    public Integer getNumeroContacto() {
+        return numeroContacto;
+    }
+
+    public void setNumeroContacto(Integer numeroContacto) {
         this.numeroContacto = numeroContacto;
     }
 
